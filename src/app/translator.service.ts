@@ -10,7 +10,7 @@ import { map, catchError } from 'rxjs/operators'
 export class TranslatorService {
   public lang = "en";
   private headers = new HttpHeaders().set('Content-Type', 'application/json')
-    .set('Ocp-Apim-Subscription-Key', '<AZURE_API_KEY>')
+    .set('Ocp-Apim-Subscription-Key', '7545ba6679d54370b3f2c4b9998bed22')
     .set('Ocp-Apim-Subscription-Region', 'centralindia');
   private url = "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to="
 
